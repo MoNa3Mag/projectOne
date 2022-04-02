@@ -1,0 +1,1006 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    border-bottom:1px solid rgba(255, 255, 255, 0.2) ;
+}
+
+.nav-item .active
+{
+    color: #f25454 !important;
+}
+.nav-item
+{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 10px;
+}
+.nav-item a:hover
+{
+    color: #f25454 !important;
+}
+
+.navbar-social
+{
+    line-height: 25px;
+    margin-left: 40px;
+}
+.navbar-social a
+{
+    color: #282828;
+    transition: all 0.15s ease;
+    padding: 0 10px;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-social a:hover
+{
+    color: #f25454;
+}
+
+
+.side
+{
+    margin-inline-end: auto !important;
+    border: 1px solid  !important;
+    border-left:0 !important ;
+    border-radius: 10%;
+    padding: 25px;
+}
+.side00-1
+{
+    left: 0;
+    margin-bottom: 6.2rem;
+}
+.side00
+{
+    left: 0;
+    
+}
+.settings
+{
+    position: fixed;
+    left: -251px;
+    top: 20%;
+    width: 251px;
+    z-index: 77;
+    transition: left .4s;
+    
+}
+.settings a
+{
+    width: 40px;
+    background-color: #1f2528;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon_panel.png);
+    opacity: 1;
+    border-radius:0 3px 3px 0;
+}
+.move
+{
+    position: absolute;
+    top: 19rem;
+    left: 19rem;
+    width: 50%;
+    text-align: center;
+}
+.move h1
+{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    transition: all 2s;
+}
+.mouse a
+{
+    opacity: 1;
+    position: absolute;
+    z-index: 999999;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    width: 25px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius:15px ;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+@media screen and (max-width :700px) 
+{
+    .move
+    {
+        width: 80%;
+        position: absolute;
+        top:10rem;
+        left: 5rem;
+    }
+}
+.mouse:hover a
+{
+    border: 1px solid #f25454;
+}
+
+.mouse .any
+{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    opacity: 1;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: magic-mouse 1.7s infinite ease;
+}
+.mouse::after
+{
+    content: "";
+}
+@keyframes magic-mouse 
+{
+    0%{top: 6px;}
+    10%{top: 8px;}
+    20%{top: 10px;}
+    30%{top: 12px;}
+    40%{top: 14px;}
+    50%{top: 16px;}
+    60%{top: 18px;}
+    70%{top: 20px;}
+    80%{top: 22px;}
+    90%{top: 24px;}
+
+    100%{top: 26px;
+    opacity: 0;}
+}
+.clr
+{
+    clear: both;
+}
+
+
+
+
+.sec1
+{
+    position: relative;
+}
+.sec1 .container
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content .A
+{
+position: relative;
+display: inline-block;
+margin-bottom: 20px;
+font-size: 70px;
+line-height: 40px;
+font-weight: 700;
+text-transform: none;
+font-family: "Poppins", sans-serif;
+color: rgba(0, 0, 0, 0.1);
+text-transform: uppercase;
+}
+.content h2
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 106px;
+    font-size: 38px ;
+    line-height: 38px;
+    font-weight: 800;
+    color: #282828;
+    font-family:"Poppins", sans-serif;
+    text-transform: none;
+}
+.content .line
+{
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    margin:  0 auto;
+    transition: all 0.3s ease-in-out;
+}
+.content:hover .line
+{
+    width: 80px;
+}
+.content p
+{
+    color: #999;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+    margin: 0 0 60px;
+
+}
+
+
+.sec1-p1
+{
+display: flex;
+flex-wrap: wrap;
+}
+.sec1-p1 p
+{
+    margin: 0 0 10px;
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.sec1-p2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bar-content
+{
+    overflow: hidden;
+    margin-bottom: -8px;
+}
+.title
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+    text-transform: none;
+    text-align: left;
+    margin-right:18.5rem ;
+}
+.pers
+{
+    float: right;
+    text-align: right;
+    color: #444;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+    position: relative;
+    right: 5rem;
+}
+.bar
+{
+    height: 4px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    border-radius: 2px;
+}
+.bar-1
+{
+    width: 80%;
+    background-color: #f25454;
+    border-radius: 2px;
+    height: 4px;
+}
+.bar-2
+{
+    width: 95%;
+    background-color: #f25454;
+    border-radius: 2px;
+    height: 4px;
+}
+.bar-3
+{
+    width: 85%;
+    background-color: #f25454;
+    border-radius: 2px;
+    height: 4px;
+}
+.bar-4
+{
+    width: 70%;
+    background-color: #f25454;
+    border-radius: 2px;
+    height: 4px;
+}
+.s1
+{
+    position: relative;
+    right: 1rem;
+}
+.s2
+{
+    position: relative;
+    right: 3.5rem;
+}
+.s3
+{
+    position: relative;
+    right: 7.5rem;
+}
+.sec2 .container
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sec2 .content h3
+{
+position: relative;
+bottom: 50px;
+left: 0;
+right: 0;
+font-size: 38px ;
+line-height: 38px;
+font-weight: 800;
+color: #282828;
+font-family:"Poppins", sans-serif;
+text-transform: none;
+margin-bottom: -40px;
+}
+
+
+.team
+{
+    position: relative;
+    transition: all 0.3s;
+}
+.team-img
+{
+    border-radius: 3px;
+    overflow: hidden;
+    
+}
+.team-img img
+{
+    transition: all 0.3s
+}
+.team-social
+{
+    background-color: rgba(242, 84, 84, 0.85);
+    position: absolute;
+    top:-10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin:0 auto ;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s;
+    height: 100%;
+}
+.team1:hover .team-social
+{
+    opacity: 1; 
+}
+.team1:hover img
+{
+    transform: scale(1.1);
+}
+.team-icon
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.team-icon a
+{
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 12px;
+    line-height:1rem;
+    color: #fff;
+    transition: all 0.3s;
+}
+.team-content
+{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 12px 0;
+    line-height:1rem;  
+    color: #282828;
+}
+.team-content h5
+{
+    font-size: 16px;
+}
+.team-content span
+{
+    color: #666;
+}
+.team1:hover .team-content h5
+{
+    color: #f25454;
+}
+
+.sec3 .container
+{
+    padding-top:50px ;
+    padding-bottom: 50px;
+}
+.sec3 h3
+{
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    margin: 0;
+    display: inline-block;
+}
+
+.sec3 .btn
+{
+    border-radius: 3px;
+    padding: 22px 35px;
+    line-height: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    border-width: 0;
+    transition: all 0.1s ease-in;
+    border-color: #ccc;
+    background-color: #f25454;
+}
+.sec3-p
+{
+    padding: auto 0 !important;
+}
+.sec3 .test 
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sec3 .btn:hover
+{
+    background-color: #f38383;
+}
+@media screen and (max-width:700)
+{
+    .sec3 h3
+    {
+        display: block;
+    }
+}
+@media screen and (max-width:580)
+{
+    .sec3-p
+    {
+        display:block;
+    }
+}
+
+.sec4
+{
+    background-color: #fafafa;
+}
+.sec4 .container
+{
+    padding: 100px 0;
+}
+
+.sec4 .content h3
+{
+position: relative;
+bottom: 50px;
+left: 0;
+right: 0;
+font-size: 38px ;
+line-height: 38px;
+font-weight: 800;
+color: #282828;
+font-family:"Poppins", sans-serif;
+text-transform: none;
+margin-bottom: -40px;
+}
+.icon i
+{
+color: #f25454;
+font-size: 32px;
+line-height: 32px;
+font-weight: 400;
+float: left;
+margin-right: 1.2rem;
+}
+.service-text
+{
+    float: left;
+    width: calc(100% - 52px);
+}
+.service-text h3
+{
+    font-size: 18px;
+    margin-top: 8px;
+    line-height: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+    transition: all 0.3s;
+    opacity: 0.9;
+}
+.sec4-p:hover .service-text h3
+{
+    color: #f25454;
+}
+.service-text p
+{
+    margin: 0 0 10px;
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.icon .far
+{
+    font-size: 29px;    
+}
+.sec5 .container
+{
+    padding: 100px 0;
+}
+
+.sec5 .content h3
+{
+position: relative;
+bottom: 50px;
+left: 0;
+right: 0;
+font-size: 38px ;
+line-height: 38px;
+font-weight: 800;
+color: #282828;
+font-family:"Poppins", sans-serif;
+text-transform: none;
+margin-bottom: -40px;
+}
+
+.carousel-indicators .clin1
+{
+    background-image: url(../img/client-1.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators .clin2
+{
+    background-image: url(../img/client-2.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators .clin3
+{
+    background-image: url(../img/client-3.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators .clin4
+{
+    background-image: url(../img/client-4.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators .clin5
+{
+    background-image: url(../img/client-5.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators .clin6
+{
+    background-image: url(../img/client-6.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators .clin7
+{
+    background-image: url(../img/client-7.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators .clin8
+{
+    background-image: url(../img/client-8.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators .clin9
+{
+    background-image: url(../img/client-9.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-indicators
+{
+    top: -60px !important;
+    width: 100% !important;
+    margin: auto !important;
+}
+
+.con
+{
+    width: 600px;
+    margin: auto;
+    padding-top:60px;
+    text-align: center;
+    
+}
+.con h5
+{
+    font-family:"Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #282828;
+    margin-bottom: 15px;
+
+}
+.con span
+{
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+.con p
+{
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #666;
+}
+.con p i
+{
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 25px;
+    color: #666;
+}
+
+.sec6
+{
+    background-color: #fafafa;
+}
+.sec6 .container
+{
+    padding: 100px 0;
+}
+.sec6 .content h3
+{
+position: relative;
+bottom: 50px;
+left: 0;
+right: 0;
+font-size: 38px ;
+line-height: 38px;
+font-weight: 800;
+color: #282828;
+font-family:"Poppins", sans-serif;
+text-transform: none;
+margin-bottom: -40px;
+}
+.sec6 .contn
+{
+    max-width: 0 0 30px 0;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+}
+.contn-1
+{
+    padding: 35px 0 15px;
+    border-bottom:1px solid #eee;
+}
+.contn-icon i
+{
+color: #f25454;
+font-size: 32px;
+line-height: 32px;
+font-weight: 400;
+float: left;
+margin-right: 1.2rem;
+}
+.contn-txt
+{
+    width: calc(100% - 60px);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #666;
+}
+.contn-txt h4
+{
+    font-size: 18px;
+    color: #1f2528;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.contn-1:hover .contn-txt h4
+{
+    color: #f25454;
+}
+.contn-txt a
+{
+    width: calc(100% - 60px);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contn-txt a:hover 
+{
+    color: #f25454;
+}
+.form-group
+{
+    padding-bottom: 2rem;
+}
+.form-group input
+{
+    padding: 14px 18px;
+    border: 2px solid #eee !important;
+}
+.form-control
+{
+    color: #eee !important;
+}
+.form-group:hover
+{
+border-color: red !important;
+}
+.sec6 button
+{
+    background-color: #f25454;
+    color: #fff;
+    border-width: 0;
+    border-radius: 3px;
+    padding: 18px 30px;
+    line-height: 1;
+    font-weight: 700;
+    transition: all 0.1s ease-in;
+}
+.sec6 button:hover
+{
+    background-color: #f38383;
+    border: 1px solid #000;
+}
+.sec7
+{
+    position: relative;
+    z-index: 10;
+    font-family: "Poppins", sans-serif;
+    color: #b0b0b0;
+}
+.sec7 .top
+{
+    background: rgba(242, 84, 84, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: block;
+    z-index: 10;
+    color: #fff;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.sec7 .top:hover
+{
+    background-color: #f25454;
+}
+.footer
+{
+    position: relative;
+    background-color: #222;
+    padding: 60px 0 0;
+    background-image: url(../img/dotted-map.png);
+}
+.log
+{
+    margin: 0 0 40px;
+}
+.sec7-p h5
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.text7 p
+{
+    margin: 0 0 10px;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.text7 a
+{
+    margin: 0 0 10px;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+.text7 a:hover
+{
+    color: #f25454;
+}
+.text7 ul
+{
+    list-style: none;
+    margin-left: -30px;
+}
+.text7 li a
+{
+    margin: 0 0 10px;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+.text7 li a:hover
+{
+    color: #f25454;
+}
+.tag
+{
+    margin: 0 0 10px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    padding: 2px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    border:1PX solid #999 ;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.tag:hover
+{
+    color: #f25454;
+    border-color: #f25454;
+}
+.text-7 a
+{
+    margin: 0 5px 10px;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+.fin
+{
+    
+    background: #1a1a1a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fin-social a
+{
+    cursor: default;
+    line-height: 1;
+    margin: 0 10px;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: #eee;
+}
+.fin-social a:hover
+{
+    color: #f25454; 
+}
+.tx
+{
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-align: right;
+
+}
+.tx a
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: #eee; 
+}
+.tx a:hover
+{
+    color: #f25454; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: segoe ui light;
+}
+
+
+
+.text
+{
+    position: absolute;
+    background-color: rgba(255, 255 , 255, 0.5);
+    border: 1mm solid gray;
+    border-radius: 10%;
+    bottom: 3%;
+    left: 10%;
+    width: 80%;
+    color: brown;
+}
+.item
+{
+    position: relative;
+
+}
+
+.parentLayer
+{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.parentLayer
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.parentLayer .childLayer
+{
+background-image: url(../image/m1.jpg);
+background-position: center center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+#close
+{
+    top: 1%;
+    right: 1%;
+}
+img
+{
+    cursor: pointer;
+}
+i
+{
+    cursor: pointer;
+}
